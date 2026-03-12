@@ -2,19 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/landsverk/quiz/4/</loc>
+    <loc>http://localhost:1313/landsverk/landsverk/quiz/4/</loc>
   </url><url>
     <loc>http://localhost:1313/landsverk/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/landsverk/</loc>
   </url><url>
-    <loc>http://localhost:1313/landsverk/quiz/1/</loc>
+    <loc>http://localhost:1313/landsverk/landsverk/</loc>
   </url><url>
-    <loc>http://localhost:1313/landsverk/quiz/2/</loc>
+    <loc>http://localhost:1313/landsverk/landsverk/quiz/1/</loc>
   </url><url>
-    <loc>http://localhost:1313/landsverk/quiz/3/</loc>
+    <loc>http://localhost:1313/landsverk/landsverk/quiz/2/</loc>
   </url><url>
-    <loc>http://localhost:1313/landsverk/quiz/</loc>
+    <loc>http://localhost:1313/landsverk/landsverk/quiz/3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/landsverk/landsverk/quiz/</loc>
   </url><url>
     <loc>http://localhost:1313/landsverk/tags/</loc>
   </url>
