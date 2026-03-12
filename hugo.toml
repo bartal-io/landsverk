@@ -1,4 +1,4 @@
-baseURL = 'bartal-io.github.com/test/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Landsverk Job Quiz'
 [caches]

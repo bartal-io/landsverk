@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head><script src="/test/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=test/livereload" data-no-instant defer></script>he</head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>he</head>
 <body>
   <header>
   <nav>...</nav>
 </header>
 
   
-  <h1>Quiz 1</h1>
-  <p>Your quiz content here.</p>
+<h1>Quiz 1</h1>
 
+
+  <form id="quiz-form">
+    <p>Question 1:</p>
+    <label><input type="radio" name="q1" value="a"> Option A</label><br>
+    <label><input type="radio" name="q1" value="b"> Option B</label><br>
+    <label><input type="radio" name="q1" value="c"> Option C</label><br>
+    <label><input type="radio" name="q1" value="d"> Option D</label><br>
+    <button type="button" onclick="nextPage()">Next</button>
+  </form>
+
+
+
+
+<script>
+function nextPage() {
+  const current = window.location.pathname.split('/').filter(Boolean).pop();
+  const next = parseInt(current) + 1;
+  window.location.href = '/quiz/' + next + '/';
+}
+</script>
 
   <footer>
   <p>&copy; 2026 Your Site</p>
