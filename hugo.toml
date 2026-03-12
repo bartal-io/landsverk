@@ -1,0 +1,6 @@
+baseURL = 'bartal-io.github.com/test/'
+languageCode = 'en-us'
+title = 'Landsverk Job Quiz'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
